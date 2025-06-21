@@ -29,7 +29,7 @@ const NameComponent = () => {
 
   return (
     <div className=' z-10 absolute w-screen h-screen bg-white bg-opacity-65 flex justify-center items-center'>
-        <div className='w-[450px] flex justify-center flex-col gap-4 border-2 p-2 rounded-md bg-stone-700 text-white'>
+        <div className='w-[450px] flex justify-center flex-col gap-4 border-2 p-2 rounded-md bg-stone-700 text-black'>
             <p className='text-xl font-bold text-center'>
                 Enter Your Name
             </p>
