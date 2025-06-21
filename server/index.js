@@ -7,7 +7,7 @@ const dbConnect=require('./config/database')
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173", // Only allow requests from this origin
+    origin: "https://rohit-negi-bot-8ze6.vercel.app/", // Only allow requests from this origin
     credentials: true, // Allow cookies and credentials
 }));
 
